@@ -1,0 +1,41 @@
+.flex_container {
+    width: 1230px;
+    background: chartreuse;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.flex_box {
+    width: 400px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/* 
+mobile : 360px --> 600px
+tablet : 600px --> 1200px
+laptob : 1200px and more
+ */
+
+@media screen and (min-width: 600px) and (max-width : 1200px) {
+    .flex_container {
+        max-width : 100%;
+    }
+
+    .flex_box {
+        width: 100%;
+        background: rgb(238, 6, 180);
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .flex_box {
+        background: #d5fa04;
+        width: 100%;
+    }
+}
