@@ -19,7 +19,7 @@ window.addEventListener('load',function() {
     console.log(querySelector , "Collection of query selector tag") //select one tag
     
     let getquerySeclectorAll = document.querySelectorAll('h2');
-    console.log(getquerySeclectorAll , "Collection of query selector all tag")
+    console.log(getquerySeclectorAll , "Collection of query selector all tag") //select all tag
 })
 
 window.addEventListener('click' , function () {
