@@ -23,14 +23,6 @@ laptob : 1200px and more
  */
 
 @media screen and (max-width : 1200px) and (min-width : 600px) {
-    .flex_container {
-        max-width: 100%;
-        width : 100%;
-        flex-wrap: wrap;
-        display: flex;
-        box-sizing: border-box;
-    }
-
     .flex_box {
         width: 47.5%;
         background: rgb(238, 6, 180);
